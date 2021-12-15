@@ -1,20 +1,30 @@
 import { makeStyles } from '@mui/styles';
 
 const productStyles: any = makeStyles({
+    container: {
+        display: 'flex',
+        alignItems: 'center',
+        flexDirection: 'column'
+    },
     title: {
         margin: '50px auto',
-        width: '30%'
+        textAlign: 'center'
     },
-    counter: {
-        margin: '50px auto',
-        width: '30%'
-
+    productsContainer: {
+        display: 'flex',
+        justifyContent: 'center',
+        flexWrap: 'wrap'
     },
-    details: {
-        margin: '50px auto',
-        padding: '5px',
-        border: '1px solid black',
-        width: '30%'
+    loaderContainer: {
+        width: '100vw',
+        height: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column'
+    },
+    loader: {
+        width: '30vw'
     }
 });
 

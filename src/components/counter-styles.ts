@@ -4,7 +4,8 @@ const counterStyles: any = makeStyles({
     container: {
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginTop: '10px'
     },
     button: {
         display: 'block',
